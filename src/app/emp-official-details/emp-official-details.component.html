@@ -1,0 +1,16 @@
+<div>
+    <h2>OFFICIAL DETAILS</h2>
+    <table>
+      <tr>
+        <th>EmployeeId</th>
+        <th>Department</th>
+        <th>Position</th>
+      </tr>
+      <tr>
+        <tr *ngFor="let detail of officialDetails">
+            <td>{{ detail.employeeId }}</td>
+            <td>{{ detail.department }}</td>
+            <td>{{ detail.position }}</td>
+          </tr>
+    </table>
+  </div>
